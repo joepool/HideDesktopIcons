@@ -29,6 +29,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             withTitle: "Show Desktop Icons",
             action: #selector(AppDelegate.showIcons),
             keyEquivalent: "")
+        statusBarMenu.addItem(
+            withTitle: "Quit",
+            action: #selector(AppDelegate.quit),
+            keyEquivalent: "")
     }
 
 
@@ -46,6 +50,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         task.launchPath = "/bin/zsh"
         task.arguments = ["./Show.sh"]
         task.launch()
+    }
+    @IBAction func quit(sender: AnyObject) {
+        NSApplication.shared.terminate(self)
     }
 
 }
