@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8075F6124F3252200BB96D6 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8075F6024F3252200BB96D6 /* menu_icon@2x.png */; };
 		D81FF46624F089E200096857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81FF46524F089E200096857 /* AppDelegate.swift */; };
 		D81FF46824F089E200096857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81FF46724F089E200096857 /* Assets.xcassets */; };
 		D81FF46B24F089E200096857 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81FF46924F089E200096857 /* MainMenu.xib */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D81FF46224F089E200096857 /* HideDesktopIcons.app */ = {isa = PBXFileReference; explicitFileType = "wrapper.installer-pkg"; includeInIndex = 0; path = HideDesktopIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8075F6024F3252200BB96D6 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		D81FF46224F089E200096857 /* HideDesktopIcons.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.installer-pkg"; path = HideDesktopIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81FF46524F089E200096857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D81FF46724F089E200096857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81FF46A24F089E200096857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				D81FF46524F089E200096857 /* AppDelegate.swift */,
+				D8075F6024F3252200BB96D6 /* menu_icon@2x.png */,
 				D81FF47324F08A6300096857 /* Hide.sh */,
 				D81FF47524F08A7300096857 /* Show.sh */,
 				D81FF46724F089E200096857 /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 				D81FF47624F08A7300096857 /* Show.sh in Resources */,
 				D81FF46824F089E200096857 /* Assets.xcassets in Resources */,
 				D81FF46B24F089E200096857 /* MainMenu.xib in Resources */,
+				D8075F6124F3252200BB96D6 /* menu_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
