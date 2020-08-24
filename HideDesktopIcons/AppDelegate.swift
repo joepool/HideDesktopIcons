@@ -39,7 +39,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("Hiding Desktop Icons")
         let task = Process();
         task.launchPath = "/bin/zsh"
-        task.arguments = ["./Hide.sh"]
+        task.arguments = ["/Applications/HideDesktopIcons.app/Contents/Resources/Hide.sh"]
         task.launch()
 
     }
@@ -47,7 +47,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("Showing Desktop Icons")
         let task = Process();
         task.launchPath = "/bin/zsh"
-        task.arguments = ["./Show.sh"]
+        task.arguments = ["/Applications/HideDesktopIcons.app/Contents/Resources/Show.sh"]
         task.launch()
     }
     @IBAction func quit(sender: AnyObject) {
