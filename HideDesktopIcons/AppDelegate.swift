@@ -13,7 +13,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         let statusBar = NSStatusBar.system
         statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
-        //statusBarItem.button?.title = "h"
         statusBarItem.button?.image = NSImage(named: "MenuBar")
 
         let statusBarMenu = NSMenu(title: "Cap Status Bar Menu")
